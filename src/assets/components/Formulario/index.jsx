@@ -34,6 +34,7 @@ const Formulario = () => {
   const changeName = (event) => {
 
     setNome(estadoAnterior => {
+      console.log(estadoAnterior)
       return event.target.value;
     })
   }
@@ -55,6 +56,13 @@ const Formulario = () => {
 
   return (
     <form action="">
+    <ul>
+      {[1,2,3,4,5].map(item => (
+        <>
+        <li key={item}>{item}</li>
+        </>
+      ))}
+    </ul>
       <input type="text" name="" id="" placeholder="Your Name Here:" onChange={changeName} />
       <input type="number" name="" id="" placeholder="Nota Matéria A" onChange={evento => setMateriaA(parseFloat(evento.target.value) || 0)} />
       <input type="number" name="" id="" placeholder="Nota Matéria B" onChange={evento => setMateriaB(parseFloat(evento.target.value) || 0)}/>
