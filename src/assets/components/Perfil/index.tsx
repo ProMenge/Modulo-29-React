@@ -1,12 +1,16 @@
 import React from "react";
-import "./perfil.css";
+import styles from "./Perfil.module.css";
 
-const Perfil = ({ endereco, nome }) => {
+const Perfil = ({ userName }) => {
   return (
-    <div>
-      <img className="perfil-avatar" src={endereco} alt="" />
-      <h3 className="perfil-titulo">{nome}</h3>
-    </div>
+    <header className={styles.header}>
+      <img
+        className={styles.avatar}
+        src={`https://github.com/${userName}.png`}
+        alt="Imagem de Perfil"
+      />
+      <h1 className={styles.name}>{userName}</h1>
+    </header>
   );
 };
 

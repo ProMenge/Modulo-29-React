@@ -1,0 +1,19 @@
+.nameRequest{
+   color: var(----corSecundaria);
+   font-weight: bold;
+   margin-bottom: 10px;
+
+}
+
+.inputName{
+
+   padding: 5px;
+   margin-bottom: 15px;
+}
+
+.nameDiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
