@@ -1,12 +1,10 @@
-# Título do projeto
-
-Um parágrafo da descrição do projeto vai aqui
-
-## 🚀 Começando
+# Estudos React
 
 Projeto desenvolvido como parte da conclusão da formação Ebac - Profissão: Desenvolvedor FullStack Python. A formação visa tutorar o aluno desde os principios básicos de programação web até os fundamentos mais complexos do backend.
 
 Este projeto visa fortalecer a ampliar os conhecimentos baseados em React.
+
+## 🚀 Começando
 
 ### 📋 Pré-requisitos
 
@@ -98,7 +96,5 @@ git push origin minha-contribuicao
 ```
 
 ## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 - **Fred Menge** - _Trabalho Inicial_ - [Fred Menge](https://github.com/ProMenge)
